@@ -1,0 +1,16 @@
+{
+  "name": "jpa/magento2-module-sample",
+  "description": "Jpa Magento2 module Sample",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jpa\\Sample\\": ""
+    }
+  }
+}
